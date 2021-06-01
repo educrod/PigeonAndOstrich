@@ -8,6 +8,7 @@ namespace PigeonAndOstrich
     {
         public double Size { get; private set; }
         public string Color { get; private set; }
+        
         public Egg(double size, string color)
         {
             Size = size;
